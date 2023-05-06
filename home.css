@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left img {
+    margin-right: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a:focus {
+    border-bottom: 2px solid orange;
+  }
+  
+  .active{
+    border-bottom: 2px solid orange;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .right ul li {
+    margin: 0 10px;
+    list-style:none;
+  }
+  
+  
+  #charity-title {
+    padding-top: 10px;
+    position: absolute;
+    left: 30%;
+    transform: translateX(-30%);
+    border-bottom: 3.7px solid orangered;
+    margin-top: -20px;
+  }
+  
+  
+  #vertical-line {
+    width: 1px;
+    height: 545px;
+    background-color: black;
+    position: absolute;
+    top: 15%;
+    right: 25%;
+  }
+  
+  #right-container #title {
+    position: absolute;
+    top: 17%;
+    right: 10%;
+    white-space: nowrap;
+    font-size: large;
+    color: orangered;
+  }
+  
+  #texts {
+    position: absolute;
+    top: 25%;
+    right: 7%;
+    white-space: nowrap;
+  }
+  
+  #cat-image {
+    position: absolute;
+    top: 33%;
+    right: 5%;
+    transform: translate(-5%, 33%);
+    z-index: 1;
+  }
+  
+  footer {
+    position: absolute;
+    left: 0;
+    background-color: orangered;
+    width: 100%;
+    height: 53%;
+    top: auto;
+    text-align: center; 
+    bottom: -320px;
+  }
+  
+  footer form {
+    display: inline-block; 
+    text-align: left; 
+  }
+  
+  footer #left-container {
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+  
+  footer #charity-title {
+    padding-bottom: 10px;
+    padding-left: 30px;
+    color: white;
+  }
+  
+  footer #charity-title {
+    width: 170px;
+    float: left;
+  }
+  
+  footer #right-container {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    white-space: nowrap;
+    margin-left: 20px;
+  }
+  
+  footer #right-container {
+      display: inline-block;
+      vertical-align: middle;
+      color: white;
+      white-space: nowrap;
+      position: absolute;
+      bottom: 25%;
+      right: 30%;
+    }
+  
+  
+  input[type="text"] {
+    margin-left: 60px;
+  }
+  
+  #hover-cat {
+    position: absolute;
+    background-color: orangered;
+    border: 0.1px solid black;
+    z-index: 2;
+    top: 47%;
+    right: 13%;
+    transform: translate(-5%, 33%);
+    color: white;
+  }
+  
+  #rights-reserved {
+    position:absolute;
+    bottom: -350px;
+    left: 0;
+    width: 100%;
+    background-color: orange;
+    height: 30px;
+    text-align: left;
+  }
+  
+  
+  input[type="text"] {
+    margin-left: 60px; 
+  }
+  
+  #last-element-before-footer {
+    margin-bottom: 100px; 
+  }
+  
+  #left-side-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #name-input, #email-caption-input {
+    margin-left: 9px;
+  }
+  
+  #name-input, #name-input {
+    margin-left: 9px;
+  }
+  
+  #email {
+    margin-left: 9px;
+  }
+  #phone {
+    margin-left: 9px;
+  }
+  #query {
+    margin-left: 9px;
+  }
+  
+  .right ul li a {
+    border: 2px solid orange;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  #right-container1 {
+    position: absolute;
+    left: 1330px;
+  }
+  
+  th[ colspan="2" ] {
+    text-decoration: underline;
+  }
+  
+  #who-text {
+    margin-left: 107px;
+    margin-top: -30px;
+  }
+  
+  #search-img1 {
+    margin-left: 25px;
+  }
+  
+  #search-img2 {
+    margin-left: 20px;
+    margin-top: 186px;
+  }
+  
+  #section-2 {
+    margin-left: 40px;
+    color: #333;
+    position: absolute;
+    text-align:left;
+    margin-top: -1px;
+  }
+  
+  #section-1 {
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+  
+  #Cat-Image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+    position: absolute;
+    right: 1000px; 
+  }
+  
+  #Cat-Image-container {
+    max-width: 100%; 
+  }
+  
+  #why-text {
+    margin-top: -160px;
+    margin-left: -1196px;
+  }
+  
+  #right-container1 {
+    margin-left: -185px;
+  }
+  
+  input[type="submit"] {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
